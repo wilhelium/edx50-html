@@ -1400,4 +1400,16 @@ textarea.form-control-lg {
   z-index: 4;
 }
 
+.search-links {
+  text-align: right;
+}
+
+.container {
+  display: flex;
+}
+.container .center-div {
+  align-items: center;
+  margin: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */

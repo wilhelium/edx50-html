@@ -4,18 +4,21 @@
         <title>Search</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css"
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div>
-
+        <div class="search-links">
+            <a href="google-image.html">Google Image Search</a>
+            <a href="google-advance.html">Google Advanced Search</a>
         </div>
-        <div >
-            <form action="https://google.com/search">
-                <input type="text" class="form-control form-control-lg" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+        <div class="container">
+            <div class="search-bar center-div">
+                <form action="https://google.co.nz/search" value="Google Search" name="search_term">
+                    <input type="text" class="form-control" name="q">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                </form>
+            </div>
         </div>
-
     </body>
 </html>
