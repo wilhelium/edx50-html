@@ -15,11 +15,24 @@ $enable-shadows: true;
     text-align: right;
   }
 
-.container{
+.container {
     display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
 
-    .center-div {
-        align-items: center;
-        margin: auto;
+    #search-buttons {
+        padding: 10px;
     }
+
+    input[type="text"]{
+        border-radius: 20px;
+        margin: auto;
+        width: 300px;
+    }
+}
+
+input {
+    margin: 10px;
 }

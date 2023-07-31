@@ -1406,10 +1406,22 @@ textarea.form-control-lg {
 
 .container {
   display: flex;
-}
-.container .center-div {
-  align-items: center;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.container #search-buttons {
+  padding: 10px;
+}
+.container input[type=text] {
+  border-radius: 20px;
+  margin: auto;
+  width: 300px;
+}
+
+input {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

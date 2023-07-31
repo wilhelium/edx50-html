@@ -5,22 +5,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
-        <style>
-            #search-links {
-                text-align: right;
-            }
-        </style>
     </head>
     <body>
-        <div id="search-links">
+        <div class="search-links">
             <a href="index.html">Google Search</a>
         </div>
-        <div>
-            <form action="https://google.com/search">
-                <input type="text" class="form-control form-control-sm" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+        <div class="container">
+            <div class="search-bar center-div">
+                <form action="https://google.co.nz/search" value="Google Search">
+                    <input type="text" class="form-control" name="q">
+                    <div id="search-buttons">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                    </div>
+                </form>
+            </div>
         </div>
-
     </body>
 </html>
