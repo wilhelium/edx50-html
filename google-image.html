@@ -7,15 +7,19 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="search-links">
+        <div class="search-links">
             <a href="index.html">Google Search</a>
         </div>
-        <div>
-            <form action="https://google.com/search">
-                <input type="text" class="form-control form-control-sm" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+        <div class="container">
+            <div class="search-bar center-div">
+                <form action="https://google.com/search">
+                    <input type="text" class="form-control form-control-sm" name="q">
+                    <input type="submit" value="Google Image Search">
+                    <input type="hidden" name="hl" value="en">
+                    <input type="hidden" name="authuser" value="0">
+                    <input type="hidden" name="tbm" value="isch">
+                </form>
+            </div>
         </div>
-
     </body>
 </html>
