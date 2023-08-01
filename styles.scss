@@ -24,15 +24,21 @@ $enable-shadows: true;
 
     #search-buttons {
         padding: 10px;
+        align-items: center;
     }
 
-    input[type="text"]{
-        border-radius: 20px;
-        margin: auto;
-        width: 300px;
-    }
+}
+
+input[type="text"]{
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
 }
 
 input {
     margin: 10px;
+}
+
+.multi-input {
+    width: 50%;
 }

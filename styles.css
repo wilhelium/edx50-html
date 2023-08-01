@@ -1413,8 +1413,10 @@ textarea.form-control-lg {
 }
 .container #search-buttons {
   padding: 10px;
+  align-items: center;
 }
-.container input[type=text] {
+
+input[type=text] {
   border-radius: 20px;
   margin: auto;
   width: 300px;
@@ -1422,6 +1424,10 @@ textarea.form-control-lg {
 
 input {
   margin: 10px;
+}
+
+.multi-input {
+  width: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */

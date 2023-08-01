@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Advanced Search</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="search-links">
-            <a href="index.html">Google Search</a>
-        </div>
-        <div class="container">
-            <div class="search-bar center-div">
-                <form action="https://google.co.nz/search" value="Google Search">
-                    <input type="text" class="form-control" name="q">
-                    <div id="search-buttons">
-                        <input type="submit" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky" name="btnI">
-                    </div>
-                </form>
+
+<head>
+    <title>Advanced Search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="search-links">
+        <a href="index.html">Google Search</a>
+    </div>
+    <div class="multi-input">
+        <form style="display: grid; grid-template-columns: repeat(2,1fr);" class="form-control" action="https://google.co.nz/search" value="Google Search">
+            <div>
+                <label class="col-form-label ">all these words:</label>
             </div>
-        </div>
-    </body>
+            <div>
+                <input type="text" name="as_q">
+            </div>
+            <div>
+                <label class="col-form-label">this exact word or phrase:</label>
+            </div>
+            <div>
+                <input type="text" name="as_epq">
+            </div>
+            <div>
+                <label class="col-form-label">any of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_oq">
+            </div>
+            <div>
+                <label class="col-form-label">none of these words:</label>
+            </div>
+            <div>
+                <input type="text" name="as_eq">
+            </div>
+            <div></div>
+            <div id="search-buttons">
+                <button style="background-color:rgb(52, 93, 230); color: #ffffff;" type="submit">Advanced Search</button>
+            </div>
+        </form>
+    </div>
+</body>
+
 </html>
